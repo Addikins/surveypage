@@ -10,7 +10,7 @@ html {
     text-align: center;
   background-color: #387268;
   font-family: Monospace;
-  color: white;
+  color: black;
 }
 #main {
   
@@ -21,11 +21,9 @@ html {
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
 }
 #description {
-  
+
 }
 #name {
   
@@ -35,18 +33,13 @@ html {
  
 }
 #formDivider {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 33%;
+  display: inline-block;
 }
 .labels {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
 }
 .inputs {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
 }
 #hoverDropdown {
   position:relative;
@@ -63,7 +56,7 @@ html {
 }
 #dropdownContent a:hover {color: #ddd;}
 #hoverDropdown:hover #dropdownContent{
-display: block;
+display: inline-block;
 }
 #hoverDropdown:hover #dropAnchor {
   color: #0F0F0F;
@@ -75,8 +68,7 @@ display: block;
 
 }
 #radios {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   text-align: left;
 }
 #checkHeader {
