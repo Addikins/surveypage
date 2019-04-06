@@ -1,0 +1,85 @@
+/* Color Theme Swatches in Hex
+.KAPUZE---plant-pot-1-hex { color: #387268; }
+.KAPUZE---plant-pot-2-hex { color: #03A577; }
+.KAPUZE---plant-pot-3-hex { color: #65A587; }
+.KAPUZE---plant-pot-4-hex { color: #D89788; }
+.KAPUZE---plant-pot-5-hex { color: #D88982; }
+  */
+html {
+    align-items: center;
+    text-align: center;
+  background-color: #387268;
+  font-family: Monospace;
+  color: white;
+}
+#main {
+  
+  background-color: #D88982;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#description {
+  
+}
+#name {
+  
+}
+#title {
+  margin-top: 30px;
+ 
+}
+#formDivider {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33%;
+}
+.labels {
+  display: flex;
+  flex-direction: row;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+#hoverDropdown {
+  position:relative;
+  display: inline-block;
+  
+}
+#dropAnchor {
+  
+}
+
+#dropdownContent {
+  display: none;
+  position: absolute;
+}
+#dropdownContent a:hover {color: #ddd;}
+#hoverDropdown:hover #dropdownContent{
+display: block;
+}
+#hoverDropdown:hover #dropAnchor {
+  color: #0F0F0F;
+}
+#dropdown {
+
+}
+#dropdownHeader {
+
+}
+#radios {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#checkHeader {
+}
+#checkboxes {
+}
