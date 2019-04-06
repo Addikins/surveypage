@@ -5,22 +5,21 @@
 .KAPUZE---plant-pot-4-hex { color: #D89788; }
 .KAPUZE---plant-pot-5-hex { color: #D88982; }
   */
-html {
+html, body {
     align-items: center;
     text-align: center;
   background-color: #387268;
   font-family: Monospace;
   color: black;
+  min-width: 300px;
 }
 #main {
   
   background-color: #D88982;
   font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 30px 40px;
   border-radius: 20px;
+  padding: 20px;
 }
 #description {
 
@@ -37,9 +36,16 @@ html {
 }
 .labels {
   display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  padding: 3px;
 }
 .inputs {
   display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 50%;
 }
 #hoverDropdown {
   position:relative;
@@ -62,11 +68,8 @@ display: inline-block;
   color: #0F0F0F;
 }
 #dropdown {
-
 }
-#dropdownHeader {
 
-}
 #radios {
   display: inline-block;
   text-align: left;
@@ -74,4 +77,12 @@ display: inline-block;
 #checkHeader {
 }
 #checkboxes {
+}
+#dropdown {
+border: 1px solid #c0c0c0;
+border-radius: 2px;
+}
+.row {
+  margin: 10px 10px;
+
 }
