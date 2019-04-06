@@ -16,7 +16,7 @@ html, body {
 #main {
   
   background-color: #D88982;
-  font-size: 20px;
+  font-size: 25px;
   margin: 0 auto;
   border-radius: 20px;
   padding: 20px;
@@ -41,13 +41,15 @@ html, body {
   text-align: right;
   vertical-align: top;
   width: 40%;
-  padding: 3px;
+  padding: 5px;
 }
 .inputs {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+  padding: 5px;
   width: 50%;
+  margin-top: 5px
 }
 .radio, .checkbox {
 position: relative;
@@ -58,6 +60,20 @@ padding-bottom: 5px;
 .feedback {
 float: left;
 margin-right: 8px;
+}
+textarea {
+  width: 280px;
+  height: 70px;
+  margin-top: 10px;
+}
+#sub-button {
+  background-color: #65A587;
+  height: 25px;
+  border: 2px solid;
+  border-radius: 2px;
+  margin: 10px;
+  color: #0a3a0a;
+  border-color: #387268;
 }
 #hoverDropdown {
   position:relative;
