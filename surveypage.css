@@ -17,9 +17,11 @@ html, body {
   
   background-color: #D88982;
   font-size: 20px;
-  margin: 30px 40px;
+  margin: 0 auto;
   border-radius: 20px;
   padding: 20px;
+  width: 75%;
+  max-width: 1000px;
 }
 #description {
 
@@ -47,6 +49,16 @@ html, body {
   vertical-align: middle;
   width: 50%;
 }
+.radio, .checkbox {
+position: relative;
+left: -50px;
+margin-left: 10px;
+padding-bottom: 5px;
+}
+.feedback {
+float: left;
+margin-right: 8px;
+}
 #hoverDropdown {
   position:relative;
   display: inline-block;
@@ -70,14 +82,6 @@ display: inline-block;
 #dropdown {
 }
 
-#radios {
-  display: inline-block;
-  text-align: left;
-}
-#checkHeader {
-}
-#checkboxes {
-}
 #dropdown {
 border: 1px solid #c0c0c0;
 border-radius: 2px;
