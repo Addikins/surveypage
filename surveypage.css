@@ -5,10 +5,17 @@
 .KAPUZE---plant-pot-4-hex { color: #D89788; }
 .KAPUZE---plant-pot-5-hex { color: #D88982; }
   */
+/* Color Theme Swatches in Hex 
+.Grey-Lt-Navy-Coral-1-hex { color: #EFE6CC; }
+.Grey-Lt-Navy-Coral-2-hex { color: #635E59; }
+.Grey-Lt-Navy-Coral-3-hex { color: #FF7573; }
+.Grey-Lt-Navy-Coral-4-hex { color: #98919B; }
+.Grey-Lt-Navy-Coral-5-hex { color: #303249; }
+*/
 html, body {
     align-items: center;
     text-align: center;
-  background-color: #387268;
+  background-color: #FF7573;
   font-family: Impact, Charcoal, sans-serif;
   color: black;
   min-width: 300px;
@@ -16,7 +23,7 @@ html, body {
 }
 #main {
   
-  background-color: #D88982;
+  background-color: #65A587;
   font-size: 25px;
   margin: 0 auto;
   border-radius: 20px;
@@ -32,8 +39,8 @@ html, body {
 }
 #title {
   margin-top: 30px;
- 
 }
+
 #formDivider {
   display: inline-block;
 }
@@ -70,17 +77,17 @@ margin-right: 8px;
 textarea {
   width: 260px;
   height: 80px;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 5px;
 }
-#sub-button {
-  background-color: #65A587;
+#submit {
+  background-color: rgb(246, 229, 225);
   height: 35px;
-  border: 3px solid;
-  border-radius: 3px;
+  border: 2px solid;
+  border-radius: 4px;
   margin: 10px;
-  color: #0a3a0a;
-  border-color: #387268;
+  color: #000000;
+  border-color: rgb(255, 113, 113);
   font-size: 15px;
 }
 #hoverDropdown {
@@ -92,7 +99,6 @@ textarea {
   text-decoration: underline;
   vertical-align: top;
 }
-
 #dropdownContent {
   display: none;
   position: relative;
@@ -107,16 +113,19 @@ textarea {
 #hoverDropdown:hover #dropdownContent{
 display: inline-block;
 background-color: #98919B;
-
 }
 #hoverDropdown:hover #dropAnchor {
   color: gray;
-  
 }
-
 #dropdown {
 border: 1px solid #c0c0c0;
 border-radius: 2px;
+height: 30px;
+width: 130px;
+}
+#name, #number, #email {
+  height: 30px;
+width: 170px;
 }
 .row {
 margin-top: 5px;

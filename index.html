@@ -3,7 +3,9 @@
 <head>
   <link rel="stylesheet" href="surveypage.css">
 </head>
-<h1 id="title">Portfolio Survey Form</h1>
+
+  <h1 id="title">Portfolio Survey Form</h1>
+
 <div id="main">
   <p id="description">Let me know how I'm doing!</p>
   <form id="survey-form">
@@ -57,15 +59,15 @@
         <ul style="list-style: none">
           <li class="radio">
             <label>Like</label>
-            <input type="radio" name="feedback" class="feedback"></li>
+            <input type="radio" name="feedback" class="feedback" value="1"></li>
 
           <li class="radio">
             <label>Dislike</label>
-            <input type="radio" name="feedback" class="feedback"></li>
+            <input type="radio" name="feedback" class="feedback" value="2"></li>
 
           <li class="radio">
             <label>Uncertain</label>
-            <input type="radio" name="feedback" class="feedback"></li>
+            <input type="radio" name="feedback" class="feedback" value="3"></li>
         </ul>
       </div>
     </div>
@@ -109,7 +111,7 @@
       </div>
 
       <div style="margin: 15px;">
-        <button id="sub-button" type="submit">Submit Feedback</button>
+        <button id="submit" type="submit">Submit Feedback</button>
       </div>
     </div>
 
