@@ -15,15 +15,15 @@
 html, body {
     align-items: center;
     text-align: center;
-  background-color: #FF7573;
+  background-color: rgb(17, 184, 226);
   font-family: Impact, Charcoal, sans-serif;
-  color: black;
+  color: #222222;
   min-width: 300px;
   letter-spacing: 1px;
 }
 #main {
   
-  background-color: #65A587;
+  background-color: rgb(185, 197, 224);
   font-size: 25px;
   margin: 0 auto;
   border-radius: 20px;
@@ -83,11 +83,10 @@ textarea {
 #submit {
   background-color: rgb(246, 229, 225);
   height: 35px;
-  border: 2px solid;
+  border: 1px solid rgb(17, 184, 226);
   border-radius: 4px;
   margin: 10px;
   color: #000000;
-  border-color: rgb(255, 113, 113);
   font-size: 15px;
 }
 #hoverDropdown {
@@ -109,14 +108,27 @@ textarea {
   width: 70%;
   height: 35px;
 }
-#dropdownContent a:hover {color: #ddd;}
+#dropdownContent a:hover {
+  color: #ddd;
+background: whitesmoke;
+}
 #hoverDropdown:hover #dropdownContent{
-display: inline-block;
-background-color: #98919B;
+display: grid;
+margin-left: auto;
+margin-right: auto;
+grid-template-columns: repeat(5, 1fr);
+background-color: rgb(226, 162, 253);
+border: 2px solid gold;
+height: 4em;
 }
 #hoverDropdown:hover #dropAnchor {
   color: gray;
 }
+#secrets img, p{
+  height: 2em;
+  margin-top: 1em;
+}
+
 #dropdown {
 border: 1px solid #c0c0c0;
 border-radius: 2px;
