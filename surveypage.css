@@ -15,7 +15,12 @@
 html, body {
     align-items: center;
     text-align: center;
-  background-color: rgb(17, 184, 226);
+  background-color: ;
+background-image: -webkit-linear-gradient( top, #11b8f4,#11b8d2, #899496 );
+   background-image: -moz-linear-gradient( top, #11b8f4,#11b8d2, #899496 );
+    background-image: -ms-linear-gradient( top, #11b8f4,#11b8d2, #899496 );
+     background-image: -o-linear-gradient( top, #11b8f4,#11b8d2, #899496 );
+        background-image: linear-gradient( top, #11b8f4,#11b8d2, #899496 );
   font-family: Impact, Charcoal, sans-serif;
   color: #222222;
   min-width: 300px;
